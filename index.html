@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jeopardy Lite</title>
+  <link type="text/css" rel="stylesheet" href="assets/game.css"/>
+
+</head>
+
+<body>
+  <div class="game">
+    <div class="heading">
+      <h1>Jeopardy Lite!</h1>
+      <h2>America's Favorite Quiz Show</h2>
+    </div>
+
+    <div class="textContent">
+
+      <div class="category">
+        <h3>Your category is: <span id="category"></span> for $<span class="points"></span>
+        </h3>
+      </div>
+
+    <div class="question">
+      <h3>Question:
+      <span id="question"></span></h3>
+    </div>
+
+
+  </div>
+  <!-- this ends textcontent -->
+
+    <div class="answer">
+    <form>
+      <input type="text" id="guess" placeholder="What Is:"><br>
+      <input type="button" id="button" value="Guess">
+    </form>
+    <br>
+
+    <div id="feedback"></div>
+    <h4>You answered: <span id="submitted"></span>.
+      The correct answer was: <span id="correctanswer"></span>.</h4>
+      <p>You have a total of $<span id="total_points">0</span>.</p>
+
+    </div>
+
+
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/jeopardy.js"></script>
+
+</body>
+
+</html>

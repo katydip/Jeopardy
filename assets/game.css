@@ -1,0 +1,39 @@
+
+body {
+  background: lightblue;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: verdana;
+  font-size: 22px;
+  line-height: .5;
+  padding-top: 5%;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: lighter;
+
+}
+#category, .points, #question {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#guess, #button {
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+}
